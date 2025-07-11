@@ -750,21 +750,6 @@ function convertToUpperCase(input) {
     input.value = input.value.toUpperCase();
 }
 
-document.addEventListener('DOMContentLoaded', function () {
-    // Sprawdzamy, czy w LocalStorage są zapisane dane użytkownika
-    const userData = JSON.parse(localStorage.getItem('userProfileData'));
-
-    if (userData) {
-        // Aktualizujemy dane na stronie
-        document.getElementById('name-display').textContent = userData.name;
-document.getElementById('surname-display').textContent = userData.surname;
-document.getElementById('nationality-display').textContent = userData.nationality;
-document.getElementById('birthDate-display').textContent = userData.birthDate;
-document.getElementById('pesel-display').textContent = userData.pesel;
-
-    }
-});
-    </script>
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
     <meta name="mobile-web-app-capable" content="yes">
