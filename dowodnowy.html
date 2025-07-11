@@ -301,7 +301,7 @@ body, html {
             <p class="krecha"></p>
             <section class="dana">
                 <p class="info">Nazwisko rodowe</p>
-                <p class="main" id="lastName">Brak danych</p>
+                <p class="main" id="lastName">KOWALCZYK</p>
             </section>
             <p class="krecha"></p>
             <section class="dana">
@@ -311,24 +311,24 @@ body, html {
             <p class="krecha"></p>
             <section class="dana">
                 <p class="info">Nazwisko rodowe ojca</p>
-                <p class="main" id="fatherSurname">Brak danych</p>
+                <p class="main" id="fatherSurname">KOWALCZYK</p>
             </section>
             <p class="krecha"></p>
             <section class="dana">
                 <p class="info">Nazwisko rodowe matki</p>
-                <p class="main" id="motherSurname">Brak danych</p>
+                <p class="main" id="motherSurname">BANAS</p>
             </section>
             <p class="krecha"></p>
             <section class="dana">
                 <p class="info">Miejsce urodzenia</p>
-                <p class="main" id="placeOfBirth">Brak danych</p>
+                <p class="main" id="placeOfBirth">GLIWICE</p>
             </section>
             <p class="krecha"></p>
             <p class="krecha"></p>
             <section class="dana">
                 <p class="info">Adres zameldowania na pobyt stały</p>
-                <p class="main" id="address">Brak danych</p>
-                <p class="main" id="postalcode">Brak danych</p>
+                <p class="main" id="address">KOZIELSKA</p>
+                <p class="main" id="postalcode">44-100</p>
             </section>
             <p class="krecha"></p>
             <section class="dana">
@@ -337,21 +337,6 @@ body, html {
             </section>
         </div>
     </div>
-
-    <script>
-        // Funkcja wczytująca dane z LocalStorage
-    
-            document.getElementById("lastName").textContent = localStorage.getItem("lastName") || "";
-            document.getElementById("gender").textContent = localStorage.getItem("gender") || "Mężczyzna";
-            document.getElementById("fatherSurname").textContent = localStorage.getItem("fatherSurname") || "";
-            document.getElementById("motherSurname").textContent = localStorage.getItem("motherSurname") || "";
-            document.getElementById("placeOfBirth").textContent = localStorage.getItem("placeOfBirth") || "";
-            document.getElementById("address").textContent = localStorage.getItem("address") || "";
-            document.getElementById("postalcode").textContent = localStorage.getItem("postalcode") || "";
-
-            const registrationDate = localStorage.getItem("registrationDate");
-            document.getElementById("registrationDate").innerText = registrationDate ? formatDate(registrationDate) : "";
-    </script>
     </style>
       
 </head>
