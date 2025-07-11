@@ -274,18 +274,6 @@ body, html {
     const year = date.getFullYear();
     return `${day}.${month}.${year}`;
 }
-
-// Wczytaj dane z localStorage i wyświetl je
-document.getElementById("display-name").innerText = localStorage.getItem("name") || "Brak danych";
-document.getElementById("display-surname").innerText = localStorage.getItem("surname") || "Brak danych";
-document.getElementById("display-nationality").innerText = localStorage.getItem("nationality") || "Brak danych";
-
-// Wczytaj i sformatuj datę urodzenia
-const birthDate = localStorage.getItem("birthDate");
-document.getElementById("display-birthDate").innerText = birthDate ? formatDate(birthDate) : "Brak danych";
-
-document.getElementById("display-pesel").innerText = localStorage.getItem("pesel") || "Brak danych";
-
         </script>
     </main>
     <section id="bottom">
