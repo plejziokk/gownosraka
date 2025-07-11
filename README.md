@@ -1,0 +1,2 @@
+# gownosraka
+wyjebane co mowia
